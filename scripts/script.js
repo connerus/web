@@ -1,17 +1,13 @@
-const menu_item = document.querySelector(".menu li");
+window.addEventListener("mouseover", (event) => {
+     if (event.target.className == "menu-item"){
+        event.target.style.backgroundColor = "blue";
+     }
+}
+)
 
-menu_item.addEventListener("mouseover", () =>
-    menu_item.innerText = "///About Me"
-
-);
-menu_item.addEventListener("mouseout", () =>
-    menu_item.innerText = "About Me"
-
-);
-
-// window.addEventListener("mouseover", function(){
-    
-//     if (Event.target.classname = "menu"){
-//         this.alert(1);
-//     }
-// }, {once:true});
+window.addEventListener("mouseout", (event) =>    {
+    if (event.target.className == "menu-item"){
+        event.target.style.backgroundColor = "black";
+     }
+}
+)
