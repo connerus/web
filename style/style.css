@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #333;
 }
 
 .header {
@@ -45,4 +46,14 @@ body {
     width: 800px;
     height: 600px;
     background-color: black;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    border-color: #fff;
+}
+
+.text {
+    padding-top: 4px;
+    padding-left: 8px;
+    color: #fff;
+    font-size: 40px;
 }
