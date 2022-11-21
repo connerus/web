@@ -5,7 +5,10 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #333;
+    background-color: #111;
+}
+h1 {
+margin: 0px;
 }
 
 .header {
@@ -51,9 +54,16 @@ body {
     border-color: #fff;
 }
 
-.text {
+.header-text {
     padding-top: 4px;
-    padding-left: 8px;
+    padding-left: 16px;
     color: #fff;
     font-size: 40px;
+}
+
+.header-info {
+    padding-top: 16px;
+    padding-left: 16px;
+    color: #fff;
+    font-size: 24px;
 }
