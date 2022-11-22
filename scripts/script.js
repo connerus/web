@@ -20,12 +20,13 @@ window.addEventListener("mouseout", (event) => {
 
 about_btn.addEventListener("click", (event) => {
    header.innerText = "Who am I?"
-   header_text.innerText = "My name is Danil. "
+   header_text.innerText = "My name is Danil. I live in Russia. I'm junior frontend developer and junior UX/UI designer"
 }
 )
 
 skills_btn.addEventListener("click", (event) => {
    header.innerText = "My skills"
+   header_text.innerText = 'Figma, HTML, JS, CSS'
 }
 )
 
