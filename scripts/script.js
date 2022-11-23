@@ -32,6 +32,8 @@ skills_btn.addEventListener("click", (event) => {
 
 socials_btn.addEventListener("click", (event) => {
    header.innerText = "Social media"
+   header_text.innerText = 'VK. YT. Twitch. Trovo'
 }
 )
 
+//я люблю Иру сильнее всех на свете
